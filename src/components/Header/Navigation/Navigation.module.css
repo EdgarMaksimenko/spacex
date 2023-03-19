@@ -1,0 +1,22 @@
+.header__nav{
+  display: flex;
+  align-items: center;
+}
+.header__nav a{
+  font-family: 'Lato';
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 16px;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 4px;
+  transition: .4s;
+}
+.header__nav a:hover{
+  transition: .4s;
+  border-bottom: 1px solid #FFFFFF;
+}
+.header__nav a.active{
+  border-bottom: 1px solid #FFFFFF;
+}

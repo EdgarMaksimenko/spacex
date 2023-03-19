@@ -1,5 +1,5 @@
 /********ОБНУЛЕНИЕ********/
-body{box-sizing: border-box;padding: 0;margin: 0;color: #1E1E1E;font-size: 16px;background: black;overflow-x: hidden;}
+body{box-sizing: border-box;padding: 0;margin: 0;color: #1E1E1E;font-size: 16px;background: #FFFFFF;overflow-x: hidden;}
 .body-wrapper{overflow-x: hidden;}
 button{white-space: nowrap;}
 *{padding: 0;margin: 0;border: 0;}

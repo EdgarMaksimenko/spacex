@@ -1,0 +1,16 @@
+.actions{
+  display: flex;
+  align-items: center;
+}
+.actions .signin{
+  font-family: 'Syne';
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  height: 53px;
+  margin-left: 12px;
+  padding: 12px 33.5px;
+  background: #D3EAFF;
+}
