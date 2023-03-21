@@ -14,3 +14,10 @@
   padding: 12px 33.5px;
   background: #D3EAFF;
 }
+.favourite{
+  width: 53px;
+  height: 53px;
+}
+.favourite.active{
+  background: #DD377D;
+}

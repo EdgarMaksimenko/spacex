@@ -8,14 +8,14 @@ const App: FC = () => {
   return (
     <div className='body-wrapper'>
       <Header />
-      <div className='container'>
-        <Routes>
-          <Route path='/' >
-            <Route index element={<Home/>} />
-            <Route path='favourites' element={<Favourites/>}/>
-          </Route>
-        </Routes>
-      </div>
+
+      <Routes>
+        <Route path='/' >
+          <Route index element={<Home />} />
+          <Route path='favourite' element={<Favourites />} />
+        </Route>
+      </Routes>
+
     </div>
   )
 };

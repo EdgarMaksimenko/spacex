@@ -1,7 +1,7 @@
 import {atom, selector,} from 'recoil';
 
 
-export const activeLinkState = atom({
+export const activeFavourite = atom({
   key: 'activeLinkState', 
-  default: 'home',
+  default: false,
 });
